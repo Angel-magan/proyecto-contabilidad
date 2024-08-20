@@ -1,0 +1,37 @@
+/* Estilos para la tabla y otros elementos */
+
+.table-container {
+  margin-top: 10px;
+  overflow-x: auto;
+}
+.title {
+  margin: 4px;
+  text-align: center;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table th {
+  /* background-color: #93e5ab; */
+  padding: 12px;
+  /* text-align: left; */
+  border-bottom: 1px solid #fff;
+}
+
+.table td {
+  padding: 12px;
+  /* text-align: left; */
+  border-bottom: 1px solid #fff;
+}
+
+.table tr:nth-child(even) {
+  background-color: #b5ffe1;
+}
+.table-container td,
+.table-container th {
+  text-align: center;
+}

@@ -1,0 +1,12 @@
+.principal {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 8px 9px 3px #ccc;
+}
+
+.principal p {
+  color: #555;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  padding-left: 15px;
+}
